@@ -1,14 +1,30 @@
 {
-  "name": "wheel-project",
-  "version": "1.0.0",
-  "description": "A JavaScript project",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js"
+  "name": "go-live-button",
+  "displayName": "Go Live Button",
+  "description": "A button on the status bar to start a local server",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "goLive.startServer",
+        "title": "Go Live: Start Local Server"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0"
+  }
 }
