@@ -1,0 +1,14 @@
+{
+  "name": "wheel-project",
+  "version": "1.0.0",
+  "description": "A JavaScript project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+# wheel
+
+A JavaScript project
+
+## Getting Started
+
+- `npm start` - Run the project
+- `npm run dev` - Run with auto-reload on file changes
+
+## Project Structure
+
+- `index.js` - Main entry point
+- `package.json` - Project configuration
