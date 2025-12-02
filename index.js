@@ -1,12 +1,10 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1500, 715);
 }
-background("black");
 
-}
 function draw() {
-  fill("green");
-  ellipse(randomNumber(0, 400), randomNumber(0, 400));
-  fill("orange");
-  ellipse(randomNumber(0, 400), randomNumber(0, 400));
+  background("black");
+  fill(200,200,200);
+  noStroke(0,0,0);
+  ellipse(width / 2, height / 2, 100, 100);
 }
