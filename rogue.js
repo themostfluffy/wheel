@@ -6,13 +6,13 @@ function draw() {
   background(0,0,0);
   fill(200,200,200);
   noStroke(0,0,0);
-  ellipse(width / 2, height / 2, 100, 100);
+  ellipse(width / 2, height / 2, 200, 200);
   fill(0,0,0);
   
 }
 function mousePressed() {
   let d = dist(mouseX, mouseY, width / 2, height / 2);
-  if (d < 50) {
+  if (d < 100) {
     let games = [
       "The Binding of Isaac",
       "Enter the Gungeon",

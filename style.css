@@ -17,5 +17,8 @@ h1 {
 p {
     color: white;
     font-size: 18px;
-    text-align: center;
+    text-align: center; 
+     font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
 }
