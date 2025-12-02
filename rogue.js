@@ -24,9 +24,8 @@ function mousePressed() {
       "vampire survivors",
       "roboquest",
       "moonlighter",
-      
-
-
+      "brotato",
+      "Neon Abyss",
     ];
     let randomIndex = floor(random(games.length));
     let selectedGame = games[randomIndex];
