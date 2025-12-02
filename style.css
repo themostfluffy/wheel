@@ -1,8 +1,9 @@
+/*background*/
 body {
     background-color:   
 black;
 }
-
+/* header*/
 h1 {
     color: white;
     text-align: center;
@@ -12,7 +13,7 @@ h1 {
     font-family: 'Arial', sans-serif;
     font-size: 36px;
 }
-
+/* content for html*/
 p {
     color: white;
     font-size: 18px;
