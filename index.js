@@ -21,7 +21,12 @@ function mousePressed() {
       "Slay the Spire",
       "risk of Rain 2",
       "risk of Rain",
+      "vampire survivors",
+      "roboquest",
+      "moonlighter",
       
+
+
     ];
     let randomIndex = floor(random(games.length));
     let selectedGame = games[randomIndex];
