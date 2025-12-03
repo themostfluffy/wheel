@@ -22,3 +22,32 @@ p {
     line-height: 1.6;
     margin: 20px;
 }
+/* links*/
+a {
+    color: #1E90FF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    font-family: 'Tahoma', sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* layout*/
+body {
+    display: flex;
+    flex-direction: row
+}
+.links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.links a {
+    display: block;
+    margin-bottom: 10px;
+}
+.links a:last-child {
+    margin-bottom: 0;
+}
+/* end of css */
