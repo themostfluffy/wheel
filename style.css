@@ -11,7 +11,7 @@ h1 {
     text-shadow: 2px 2px 4px #575656; 
     margin-top: 50px;
     font-family: 'Arial', sans-serif;
-    font-size: 36px;
+    font-size: 60px;
 }
 /* content for html*/
 p {
@@ -24,11 +24,14 @@ p {
 }
 /* links*/
 a {
-    color: #1E90FF;
+    color: #ff0000;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 20px;
+    font-size: 50px;
     font-family: 'Tahoma', sans-serif;
+     background-color: rgb(85, 85, 85);
+    border-radius: 10px;
+     text-shadow: 2px 2px 4px rgb(157, 0, 0);
 }
 a:hover {
     text-decoration: underline;

@@ -31,6 +31,6 @@ function mousePressed() {
     let selectedGame = games[randomIndex];
     alert("You should play: " + selectedGame);
   } else {
-    alert("Click on the wheel to get a game suggestion!");
+    alert("Click the button you bastard!");
   }
 }
