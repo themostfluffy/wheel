@@ -19,7 +19,7 @@ function mousePressed() {
         "potion craft",
         "minecraft",
         "terraria",
-        "farming simulator 22",
+        "farming simulator 2022",
     ];
     let randomIndex = floor(random(games.length));
     let selectedGame = games[randomIndex];
