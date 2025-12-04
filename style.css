@@ -34,10 +34,7 @@ a:hover {
     text-decoration: underline;
 }
 /* layout*/
-body {
-    display: flex;
-    flex-direction: row
-}
+
 .links {
     position: absolute;
     top: 20px;
