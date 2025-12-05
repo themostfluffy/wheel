@@ -17,6 +17,10 @@ function mousePressed() {
         "Age of Empires Iv",
         "frostpunk",
         "civilization vi",
+        "rimworld",
+        "anno 1800",
+        "project zomboid",
+        
 
     ];
     let randomIndex = floor(random(games.length));

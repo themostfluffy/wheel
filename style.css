@@ -9,18 +9,16 @@ h1 {
     text-align: center;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px #575656; 
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: 'Arial', sans-serif;
     font-size: 60px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+   
 
 }
 /* content for html*/
 p {
     color: white;
+     text-shadow: 2px 2px 4px #575656; 
     font-size: 18px;
     text-align: center; 
      font-family: 'Verdana', sans-serif;
@@ -44,9 +42,9 @@ a:hover {
 /* layout*/
 
 .links {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+   position: absolute; 
+    top: 175px;
+    right: 10px;
 }
 .links a {
     display: block;
@@ -55,4 +53,5 @@ a:hover {
 .links a:last-child {
     margin-bottom: 0;
 }
+
 /* end of css */
