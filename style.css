@@ -54,4 +54,11 @@ a:hover {
     margin-bottom: 0;
 }
 
+/* version */
+h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+
 /* end of css */
